@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                          // Specify ECMAScript target version
+    "module": "CommonJS",                        // Specify module code generation
+    "rootDir": "./src",                          // Specify the root folder where TypeScript files are located
+    "outDir": "./dist",                          // Redirect output structure to the "dist" directory
+    "esModuleInterop": true,                     // Enable compatibility with CommonJS and ES modules
+    "moduleResolution": "node",                  // Use Node.js module resolution
+    "strict": true,                              // Enable strict type checking
+    "skipLibCheck": true,                        // Skip type checking of all declaration files
+    "forceConsistentCasingInFileNames": true,    // Ensure consistent casing in import statements
+    "resolveJsonModule": true,                   // Include JSON imports
+    "types": ["node"]                            // Include type definitions for Node.js
+  },
+  "include": ["src/**/*.ts"],                    // Include all TypeScript files in the src folder
+  "exclude": ["node_modules"]                    // Exclude the node_modules folder
+}

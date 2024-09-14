@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #FFF5F4;
+}
+
+
+.bg-custom {
+  background: linear-gradient(90deg, #F38186 0%, #FD9B59 100%);
+}
+
+
+.text-pink {
+  color: #F38186;
+}
+
+.text-orange {
+  color: #FD9B59;
+}
+
+.border-custom {
+  border: 2px solid #FD9B59; 
+  border-radius: 8px; 
+}
